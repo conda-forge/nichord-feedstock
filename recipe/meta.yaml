@@ -1,5 +1,5 @@
 {% set name = "nichord" %}
-{% set version = "0.2.7" %}
+{% set version = "0.3.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/nichord-{{ version }}.tar.gz
-  sha256: d48d8969029d5f2da6a06ef065875e16f87a4c34f507a871af47060a3560568e
+  sha256: 3de3266dc8ac55c7c0c2965459bb4a97412d1b832e831bcf24abfe9e36f2d02d
 
 build:
   noarch: python
